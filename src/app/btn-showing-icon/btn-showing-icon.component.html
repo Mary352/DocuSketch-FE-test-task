@@ -1,0 +1,6 @@
+<div class="container">
+   <button class="container__button" (click)="showIcon()">Show Icon</button>
+   <div class="container__icon-container" *ngIf="!isHidden">
+      <fa-icon class="container__icon" [icon]="randomFreeIcon"></fa-icon>
+   </div>
+</div>
